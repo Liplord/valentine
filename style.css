@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+    background-color: #f0a5b2;
+    margin: auto;
+    padding: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+h1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    margin-top: 100px;
+    /* color: #5F414C; */
+    color: white;
+}
+.gifs img{
+    scale: 1.4;
+    
+}
+.gifs{
+    display: flex;
+    flex-direction: row;
+    width: 750px;
+    justify-content: space-around;
+}
+
+.button {
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 16px;
+    transition: background-color 0.3s;
+}
+
+.button-green {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 60px;
+    font-size: 36px;
+}
+
+.button-green:hover {
+    background-color: #45a049;
+}
+
+.button-red {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 30px;
+    font-size: 16px;
+    height: 100px;
+}
+
+.button-red:hover {
+    background-color: #d32f2f;
+}
+
+.btns{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.nice{
+    width: 400px;
+    height: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.chose{
+    max-width: 1000px;
+    gap: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    color: white;
+    max-width: 600px;
+    text-align: center;
+}
+
+.brat{
+    max-width: 200px;
+    height: 200px;
+}
+.block{
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+}
+.gig{
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 400px) {
+    h1{
+        font-size: 45px;
+    }
+    .btns{
+        display: flex;
+        gap: 30px;
+        margin-top: 100px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .button-green {
+        padding: 250px 160px;
+        font-size: 50px;
+    }
+    .button-red {
+        padding: 200px 130px;
+        font-size: 50px;
+        height: auto;
+    }
+    .nice{
+        width: 570px;
+        height: auto;
+    }
+    .chose{
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .big{
+        max-width: 500px;
+        font-size: 36px;
+    }
+    .brat{
+        max-width: 200px;
+    }
+}
